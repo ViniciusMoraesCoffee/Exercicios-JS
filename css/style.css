@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Monserrat;
+}
+@font-face {
+    font-family: Monserrat;
+    src: url('../font/Montserrat/static/Montserrat-Regular.ttf');
+}
+
+.box-geral {
+    background-color: #3b303f;
+    min-height: 100vh;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.box-ex {
+    background-color: #c2c2c2;
+    min-width: 350px;
+    min-height: 350px;
+    padding: 25px;
+}
+
+/*<--------Ex01-------->*/
+.box-ex01 {
+    background-color: #5c638d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-ex01 h2 {
+    color: #c2c2c2;
+}
+.div-ex01 {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inp-ex01 {
+    width: 80%; height: 25px;
+    margin: 10px 0;
+    padding-left: 27px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: Monserrat;
+    font-weight: 600;
+}
+.btn-ex01 {
+    background-color: #424f86;
+    width: 80%;
+    color: #c2c2c2;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-ex01:hover {
+    background-color: #c2c2c2;
+    color: #424f86;
+}
+.p-ex01 {
+    background-color: #474747;
+    color: #c2c2c2;
+    width: 80%; height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*<--------Ex01-------->*/
+
+
+
+/*<--------Ex02-------->*/
+.box-ex02 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-ex02 h2 {
+    color: #474747;
+}
+.img-ex02 {
+    width: 75%; height: 75%;
+    cursor: pointer;
+}
+/*<--------Ex02-------->*/
+
+
+
+/*<--------Ex03-------->*/
+.box-ex03 {
+    background-color: #c598b1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-ex03 h2 {
+    color: #474747;
+}
+.div-ex03 {
+    margin: 50px 0;
+}
+.div-ex03 span {
+ margin-left: 7px;
+}
+.inp-ex03 {
+    padding-left: 7px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: Monserrat;
+    font-weight: 600;
+}
+/*<--------Ex03-------->*/
+
+
+
+/*<--------Ex04-------->*/
+.box-ex04 {
+    background-color: #504c57;
+}
+.rotation-btn-ex04 {
+    background-color: transparent;
+    width: 100%; height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-color-ex04 {
+    background-color: var(--clr);
+    width: 100px; height: 100px;
+    left: 60px;
+    border-radius: 50%;
+    position: absolute;
+    transform-origin: 140px;
+    transform: rotate(calc(360deg / 3 * var(--i)));
+    cursor: pointer;
+}
+/*<--------Ex04-------->*/
